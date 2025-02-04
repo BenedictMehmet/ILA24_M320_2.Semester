@@ -43,14 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="KW06_25\Übungen\Lösungen\Lösung1.cs" />
+    <Compile Include="KW06_25\Übungen\Lösungen\Lösung2.cs" />
+    <Compile Include="KW06_25\Übungen\Lösungen\Lösung3.cs" />
+    <Compile Include="KW06_25\Übungen\Lösungen\Lösung4.cs" />
+    <Compile Include="KW06_25\Übungen\Lösungen\Lösung5.cs" />
+    <Compile Include="KW06_25\Übungen\Lösungen\MainClass.cs" />
+    <Compile Include="KW06_25\Übungen\Übungen.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="KW06_25\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
