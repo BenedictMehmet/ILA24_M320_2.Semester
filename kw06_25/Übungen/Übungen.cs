@@ -33,6 +33,11 @@ namespace ILA24_M320_2.Semester.KW06_25.Übungen
            Falls die Eingabe ungültig ist, soll eine Fehlermeldung erscheinen.
            Falls die Eingabe eine gültige Zahl ist und diese Zahl zwischen 0 und 120 liegt, soll das Alter akzeptiert werden.
            Wenn das Alter außerhalb des Bereichs liegt, soll eine weitere Nachricht erscheinen.
+
+        6. Schreibe eine Methode, die eine Temperatur in Grad Celsius als Parameter entgegennimmt und die Temperatur in Fahrenheit zurückgibt. Die Methode soll das Ergebnis mit return zurückgeben.
+           Die Umrechnung erfolgt nach der Formel:
+
+           Formel: Fahrenheit=(Celsius×9/5)+32
         */
     }
 }
