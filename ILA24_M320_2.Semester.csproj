@@ -43,6 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="KW06_25\MainClass.cs" />
+    <Compile Include="KW06_25\Method1.cs" />
+    <Compile Include="KW06_25\Method2.cs" />
+    <Compile Include="KW06_25\Method3.cs" />
+    <Compile Include="KW06_25\MethodParameter1.cs" />
+    <Compile Include="KW06_25\MethodParameter2.cs" />
+    <Compile Include="KW06_25\MethodReturnBool.cs" />
+    <Compile Include="KW06_25\RückblickReadLine1.cs" />
+    <Compile Include="KW06_25\RückblickReadLine2.cs" />
     <Compile Include="KW06_25\Übungen\Lösungen\Lösung1.cs" />
     <Compile Include="KW06_25\Übungen\Lösungen\Lösung2.cs" />
     <Compile Include="KW06_25\Übungen\Lösungen\Lösung3.cs" />
