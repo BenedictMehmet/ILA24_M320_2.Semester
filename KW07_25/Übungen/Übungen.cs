@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 namespace ILA24_M320_2.Semester.KW07_25.Übungen
 {
     internal class Übungen
-    {
+    {  /*
          1.
-         /*  
+         
             Herausforderung: Raketenlandungssimulation
 
             In dieser Aufgabe wirst du eine unterhaltsame und interaktive Konsolenanwendung in C# erstellen,
