@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>ILA24_M320_2.Semester.KW07_25.RandomNumber</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -60,6 +63,13 @@
     <Compile Include="KW06_25\Übungen\Lösungen\Lösung6.cs" />
     <Compile Include="KW06_25\Übungen\Lösungen\MainClass.cs" />
     <Compile Include="KW06_25\Übungen\Übungen.cs" />
+    <Compile Include="KW07_25\Array1.cs" />
+    <Compile Include="KW07_25\Array2.cs" />
+    <Compile Include="KW07_25\Array3.cs" />
+    <Compile Include="KW07_25\Array4.cs" />
+    <Compile Include="KW07_25\Array4Main.cs" />
+    <Compile Include="KW07_25\FürÜbung1.cs" />
+    <Compile Include="KW07_25\RandomNumber.cs" />
     <Compile Include="KW07_25\Übungen\Übungen.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

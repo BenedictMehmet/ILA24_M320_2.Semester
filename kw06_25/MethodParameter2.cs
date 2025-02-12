@@ -14,7 +14,7 @@ namespace ILA24_M320_2.Semester.KW06_25
 
             Console.WriteLine($"Hallo {name}, Willkommen im Unterricht");
 
-            return name;
+            //return name;
         }
 
 
