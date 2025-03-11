@@ -25,7 +25,7 @@ namespace ILA24_M320_2.Semester.KW07_25
                 string myString = Console.ReadLine();
                 isNumber = int.TryParse(myString, out number);
 
-                if (isNumber = false || number < 1 || number > 10)
+                if (!isNumber || number < 1 || number > 10)
 
                 {
                     Console.WriteLine("Ungültige Eingabe. Bitte gib eine Zahl zwischen" +

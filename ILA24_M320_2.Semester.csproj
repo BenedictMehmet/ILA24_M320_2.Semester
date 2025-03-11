@@ -71,6 +71,7 @@
     <Compile Include="KW07_25\FürÜbung1.cs" />
     <Compile Include="KW07_25\RandomNumber.cs" />
     <Compile Include="KW07_25\Übungen\Übungen.cs" />
+    <Compile Include="KW11_25\Übungen\Übungen.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
