@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ILA24_M320_2.Semester.KW07_25.RandomNumber</StartupObject>
+    <StartupObject>ILA24_M320_2.Semester.KW11_25.Property2Main</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -70,15 +70,21 @@
     <Compile Include="KW07_25\Array4Main.cs" />
     <Compile Include="KW07_25\FürÜbung1.cs" />
     <Compile Include="KW07_25\RandomNumber.cs" />
+    <Compile Include="KW07_25\Übungen\Lösungen\Lösung1.cs" />
     <Compile Include="KW07_25\Übungen\Übungen.cs" />
+    <Compile Include="KW11_25\ConstrucorMain.cs" />
+    <Compile Include="KW11_25\Constructor.cs" />
+    <Compile Include="KW11_25\MemberVariable.cs" />
+    <Compile Include="KW11_25\Property1.cs" />
+    <Compile Include="KW11_25\Property1Main.cs" />
+    <Compile Include="KW11_25\Property2.cs" />
+    <Compile Include="KW11_25\Property2Main.cs" />
     <Compile Include="KW11_25\Übungen\Übungen.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="KW07_25\Übungen\Lösungen\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
