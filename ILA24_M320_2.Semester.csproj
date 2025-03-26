@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ILA24_M320_2.Semester.KW11_25.Property2Main</StartupObject>
+    <StartupObject>ILA24_M320_2.Semester.KW13_25.QuizApp.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -80,6 +80,9 @@
     <Compile Include="KW11_25\Property2.cs" />
     <Compile Include="KW11_25\Property2Main.cs" />
     <Compile Include="KW11_25\Übungen\Übungen.cs" />
+    <Compile Include="KW13_25\QuizApp\Program.cs" />
+    <Compile Include="KW13_25\QuizApp\Question.cs" />
+    <Compile Include="KW13_25\QuizApp\Quiz.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
