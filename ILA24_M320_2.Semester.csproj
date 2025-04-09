@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ILA24_M320_2.Semester.KW13_25.QuizApp.Program</StartupObject>
+    <StartupObject>ILA24_M320_2.Semester.KW15_25.Lambdas</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -83,6 +83,12 @@
     <Compile Include="KW13_25\QuizApp\Program.cs" />
     <Compile Include="KW13_25\QuizApp\Question.cs" />
     <Compile Include="KW13_25\QuizApp\Quiz.cs" />
+    <Compile Include="KW15_25\Aufgaben\Aufgabe.cs" />
+    <Compile Include="KW15_25\Lambdas.cs" />
+    <Compile Include="KW15_25\List.cs" />
+    <Compile Include="KW15_25\List1.cs" />
+    <Compile Include="KW15_25\List1Main.cs" />
+    <Compile Include="KW15_25\List2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
