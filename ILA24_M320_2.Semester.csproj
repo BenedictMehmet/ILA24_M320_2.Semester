@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ILA24_M320_2.Semester.KW15_25.Lambdas</StartupObject>
+    <StartupObject>ILA24_M320_2.Semester.KW15_25.List2</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

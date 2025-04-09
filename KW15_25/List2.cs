@@ -13,9 +13,13 @@ namespace ILA24_M320_2.Semester.KW15_25
             List<(string, int)> products = new List<(string, int)>
             {
                 ("Zitrone", 4)
-
-
             };
+
+
+            foreach((string,int) p in products)
+            {
+                Console.WriteLine(p.Item1 +" " +p.Item2);
+            }
         }
     }
 }
