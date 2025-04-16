@@ -26,13 +26,13 @@ namespace ILA24_M320_2.Semester.KW15_25.Aufgaben.Recipe
             }
 
 
-            Console.Write("Anzahl der Zutaten");
+            Console.Write("Anzahl der Schritte");
             int anzahlSchritte = int.Parse(Console.ReadLine());
-            string[] listeSchritte = new string[anzahlZutaten];
+            string[] listeSchritte = new string[anzahlSchritte];
 
             for (int i = 0; i < anzahlSchritte; i++)
             {
-                Console.Write($"Zutat {i + 1}");
+                Console.Write($"Schritt {i + 1}");
                 listeSchritte[i] = Console.ReadLine();
             }
 
@@ -70,10 +70,26 @@ namespace ILA24_M320_2.Semester.KW15_25.Aufgaben.Recipe
             {
                 Console.WriteLine($"Rezept {rezeptNummer++}: {r.Name}");
                 DisplayIngredients(r);
-                DisplayIngredients(r);
+                DisplayPreperationStep(r);
             }
 
             Console.WriteLine();
+        }
+
+        public void SearchRecipe()
+        {
+            Console.Write("Gib einen Namen von einem Rezept ein: ");
+            string rezeptSuche = Console.ReadLine().ToLower();
+
+            Predicate<Recipe> matchingName = r => r.Name.ToLower().Contains(rezeptSuche);
+            List<Recipe> matchingRecipes = recipes.FindAll(matchingName);
+
+            foreach(Recipe r in matchingRecipes)
+            {
+                Console.WriteLine($"Rezeptname: {r.Name} / {r.Ingredients}");
+            }
+
+
         }
     }
 }

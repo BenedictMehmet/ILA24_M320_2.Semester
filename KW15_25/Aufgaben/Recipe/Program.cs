@@ -24,7 +24,24 @@ namespace ILA24_M320_2.Semester.KW15_25.Aufgaben.Recipe
 
                 string eingeben = Console.ReadLine();
 
+                switch (eingeben)
+                {
+                    case "1":
+                        rb.AddRecipe();
+                        break;
 
+                    case "2":
+                        rb.ShowAllRecipes();
+                        break;
+
+                    case "3":
+                        running = false;
+                        break;
+
+                    default:
+                        Console.WriteLine("Ungültige Eingabe. Bitte eine Eingabe zwischen 1 bis 3");
+                        break;
+                }
 
             }
         }
