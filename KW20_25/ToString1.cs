@@ -9,9 +9,9 @@ namespace ILA24_M320_2.Semester.KW20_25
     internal class ToString1
     {
         public string Name { get; set; }
-        public string Age { get; set; }
+        public int Age { get; set; }
 
-        public ToString1(string name, string age)
+        public ToString1(string name, int age)
         {
             this.Name = name;
             this.Age = age;
@@ -19,20 +19,12 @@ namespace ILA24_M320_2.Semester.KW20_25
 
         public void GibInfo()
         {
-            Console.WriteLine($"Name: {Name} / Alte: {Age}");
+            Console.WriteLine($"Name: {Name} / Alter: {Age}");
         }
 
         public override string ToString()
         {
             return $"Name: {Name} / Alte: {Age}";
         }
-
-
-        static void Main(string[]args)
-        {
-            ToString1 t1 = new ToString1();
-        }
-
-
     }
 }
