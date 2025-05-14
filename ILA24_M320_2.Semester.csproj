@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ILA24_M320_2.Semester.KW15_25.List2</StartupObject>
+    <StartupObject>ILA24_M320_2.Semester.KW20_25.Dictionary2Main</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -92,6 +92,11 @@
     <Compile Include="KW15_25\List1.cs" />
     <Compile Include="KW15_25\List1Main.cs" />
     <Compile Include="KW15_25\List2.cs" />
+    <Compile Include="KW20_25\Dictionary.cs" />
+    <Compile Include="KW20_25\Dictionary2.cs" />
+    <Compile Include="KW20_25\Dictionary2Main.cs" />
+    <Compile Include="KW20_25\ToString1.cs" />
+    <Compile Include="KW20_25\ToString1Main.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
