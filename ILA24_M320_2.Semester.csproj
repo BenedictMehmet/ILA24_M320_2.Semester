@@ -101,6 +101,7 @@
     <Compile Include="KW20_25\ToString1Main.cs" />
     <Compile Include="KW20_25\TryCatch.cs" />
     <Compile Include="KW20_25\TryCatch2.cs" />
+    <Compile Include="KW21_25\Aufgaben\Aufgaben.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
