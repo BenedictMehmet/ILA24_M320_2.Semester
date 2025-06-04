@@ -102,6 +102,10 @@
     <Compile Include="KW20_25\TryCatch.cs" />
     <Compile Include="KW20_25\TryCatch2.cs" />
     <Compile Include="KW21_25\Aufgaben\Aufgaben.cs" />
+    <Compile Include="KW23_25\Abstract.cs" />
+    <Compile Include="KW23_25\Inheritance.cs" />
+    <Compile Include="KW23_25\Interface.cs" />
+    <Compile Include="KW23_25\PartialClasses.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
